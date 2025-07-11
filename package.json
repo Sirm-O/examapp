@@ -3,11 +3,11 @@
     "main": "expo-router/entry",
     "version": "1.0.0",
     "scripts": {
-      "start": "bunx rork start -p 8dx11md504tjqt0q2ncfh --tunnel",
-      "start-web": "bunx rork start -p 8dx11md504tjqt0q2ncfh --web --tunnel",
-      "start-web-dev": "DEBUG=expo* bunx rork start -p 8dx11md504tjqt0q2ncfh --web --tunnel",
-      "build": "bunx rork build",
-      "deploy": "bunx rork build && netlify deploy --prod"
+      "start": "npx rork start -p 8dx11md504tjqt0q2ncfh --tunnel",
+      "start-web": "npx rork start -p 8dx11md504tjqt0q2ncfh --web --tunnel",
+      "start-web-dev": "DEBUG=expo* npx rork start -p 8dx11md504tjqt0q2ncfh --web --tunnel",
+      "build": "npx rork build",
+      "deploy": "npx rork build && netlify deploy --prod"
     },
     "dependencies": {
       "@expo/vector-icons": "^14.1.0",
