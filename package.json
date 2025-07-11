@@ -6,8 +6,8 @@
       "start": "expo start",
       "start-web": "expo start --web",
       "start-web-dev": "expo start --web",
-      "build": "expo export --platform web",
-      "deploy": "expo export --platform web && netlify deploy --prod"
+      "build": "expo export",
+      "deploy": "expo export && netlify deploy --prod"
     },
     "dependencies": {
       "@expo/vector-icons": "^14.1.0",
