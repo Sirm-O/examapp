@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Typography, Button, Box } from '@mui/material';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 function Home() {
   return (
