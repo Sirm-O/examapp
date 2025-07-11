@@ -1,7 +1,7 @@
 [build]
   base = "/"
   command = "npm install && npm run build"
-  publish = "web-build"
+  publish = "dist"
 
 [build.environment]
   NODE_ENV = "production"

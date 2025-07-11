@@ -3,11 +3,10 @@
     "main": "expo-router/entry",
     "version": "1.0.0",
     "scripts": {
-      "start": "expo start",
-      "start-web": "expo start --web",
-      "start-web-dev": "expo start --web",
-      "build": "expo export",
-      "deploy": "expo export && netlify deploy --prod"
+      "start": "vite",
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
     },
     "dependencies": {
       "@expo/vector-icons": "^14.1.0",
@@ -41,7 +40,13 @@
       "react-native-screens": "~4.10.0",
       "react-native-svg": "15.11.2",
       "react-native-web": "^0.20.0",
-      "zustand": "^5.0.6"
+      "zustand": "^5.0.6",
+      "typescript": "~5.8.3",
+      "vite": "^5.0.0",
+      "@vitejs/plugin-react": "^4.2.1",
+      "@babel/core": "^7.25.2",
+      "@expo/ngrok": "^4.1.0",
+      "@types/react": "~19.0.10"
     },
     "devDependencies": {
       "@babel/core": "^7.25.2",
