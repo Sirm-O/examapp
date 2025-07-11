@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Grid, Paper, Typography, Button, Box } from '@mui/material';
+import { Container, Grid, Paper, Typography, Button } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 
 const Dashboard = () => {
