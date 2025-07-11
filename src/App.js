@@ -24,12 +24,54 @@ function Home() {
   );
 }
 
+function Exams() {
+  return (
+    <Box sx={{ my: 4 }}>
+      <Typography variant="h4" component="h1" gutterBottom>
+        Exam Management
+      </Typography>
+      <Typography variant="body1" paragraph>
+        Manage your exams here.
+      </Typography>
+    </Box>
+  );
+}
+
+function Students() {
+  return (
+    <Box sx={{ my: 4 }}>
+      <Typography variant="h4" component="h1" gutterBottom>
+        Student Management
+      </Typography>
+      <Typography variant="body1" paragraph>
+        Manage your students here.
+      </Typography>
+    </Box>
+  );
+}
+
+function Results() {
+  return (
+    <Box sx={{ my: 4 }}>
+      <Typography variant="h4" component="h1" gutterBottom>
+        Results Management
+      </Typography>
+      <Typography variant="body1" paragraph>
+        View and manage exam results here.
+      </Typography>
+    </Box>
+  );
+}
+
 function App() {
   return (
     <Container maxWidth="lg">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/exams" element={<Exams />} />
+        <Route path="/students" element={<Students />} />
+        <Route path="/results" element={<Results />} />
       </Routes>
     </Container>
   );
